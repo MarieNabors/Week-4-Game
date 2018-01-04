@@ -32,19 +32,19 @@ ul {
 	
 }
 ]
-div#container {
+div.instructions {
 	margin: auto;
 	width: 60%;
 
 }
 
-div.header, div.gems{
+div#heading, div.gems{
 	background-color: #e0e0eb;
 }
-div.header, div.instructions{
+div#heading, div.instructions{
 	width: 70%;
 }
-/* Classes */
+
 .goalNumber, .winLossTracker{
 	width: 20%;
 	height: 70px;
