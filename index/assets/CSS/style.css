@@ -11,7 +11,7 @@ div{
 	border: solid 2px antiquewhite;
 	padding: 10px;
 }
-h1, h3, span{
+h1, h2, span{
 	font-weight: bold;
 	text-align: center;
 	font-family: 'Lora', serif;
@@ -31,11 +31,11 @@ ul {
 	font-family: 'Lora', serif;
 	
 }
-/* Specfic Elements*/
+]
 div#container {
 	margin: auto;
 	width: 60%;
-	/*text-align: center;*/
+
 }
 
 div.header, div.gems{
@@ -45,36 +45,36 @@ div.header, div.instructions{
 	width: 70%;
 }
 /* Classes */
-.numberToMatch, .winsAndLosses{
-	width: 15%;
-	height: 60px;
+.goalNumber, .winLossTracker{
+	width: 20%;
+	height: 70px;
 }
-.userTotal{
-	width: 15%;
-	height: 60px;
+.total{
+	width: 20%;
+	height: 70px;
 }
 .gems{
 	clear: both;
-	width: 40%;
+	width: 45%;
 }
 .center {
 	margin:auto;
 
 }
 .gemImage{
-	height: 60px;
-	margin: 10px;
+	height: 70px;
+	margin: 15px;
 }
 /* IDs */
 #blue{
-	color: #3092c7;
+	color: blue;
 }
 #green{
-	color: #00aa59;
+	color: green;
 }
 #red{
-	color: #ec4b5f;
+	color: red;
 }
 #yellow{
-	color: #ffc225;
+	color: yellow;
 }
